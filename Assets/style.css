@@ -1,4 +1,26 @@
-header {
+* {
+  margin: 0;
+}
+
+body {
   height: 100px;
-  background-color: royalblue;
+  background-image: url(./themood.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+nav {
+  background-color: black;
+}
+
+.card-body {
+  color: ghostwhite;
+  background-color: dodgerblue;
+}
+
+.box {
+  width: 300px;
+  border: 15px solid green;
+  padding: 50px;
+  margin: 20px;
 }
