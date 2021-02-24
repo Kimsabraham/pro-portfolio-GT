@@ -12,15 +12,20 @@ body {
 nav {
   background-color: black;
 }
-
+.navbar-toggler-icon {
+  background-color: white;
+  color: black;
+}
+.card {
+  justify-content: flex-start;
+}
 .card-body {
   color: ghostwhite;
   background-color: dodgerblue;
 }
 
-.box {
-  width: 300px;
-  border: 15px solid green;
-  padding: 50px;
-  margin: 20px;
+.container {
+  background-color: black;
+  color: white;
+  display: flex;
 }
