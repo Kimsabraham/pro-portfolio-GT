@@ -101,11 +101,11 @@ footer {
 }
 
 .container .card:nth-child(1) .icon {
-  background: #e07768;
+  background: #4684a8;
 }
 
 .container .card:nth-child(2) .icon {
-  background: #6eadd4;
+  background: #ff0000;
 }
 
 .container .card:nth-child(3) .icon {
@@ -201,4 +201,33 @@ i {
 
 footer .card {
   background-color: transparent;
+}
+.work {
+  margin: auto;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.container1 {
+  width: 800px;
+  margin: auto;
+  display: flex;
+  box-sizing: border-box;
+}
+
+.rows {
+  margin: 10px;
+}
+
+.columns {
+  background-color: transparent;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+  text-align: center;
+  vertical-align: middle;
 }
