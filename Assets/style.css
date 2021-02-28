@@ -212,11 +212,14 @@ footer .card {
   justify-content: center;
 }
 
+
 section p {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   color: white;
+
+/* this is in charge of my grid styling */
 }
 .columnstyle {
   align-items: center;
