@@ -219,19 +219,21 @@ section p {
   color: white;
 }
 .columnstyle {
-  background-color: teal;
   align-items: center;
   padding: 15px;
   color: white;
+  justify-content: center;
 }
 
 .grid-container {
   display: grid;
   grid-template-columns: auto auto;
+  justify-content: center;
 }
 
 .griditem1 {
   grid-column: 1 / span 2;
+  justify-content: center;
 }
 
 .grid-container div img:hover {
