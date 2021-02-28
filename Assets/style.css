@@ -9,7 +9,7 @@ body {
   height: 100px;
   background-image: url(./themood.jpg);
   background-size: cover;
-  background-position: top;
+  background-position: inherit;
 }
 
 /* Nav bar css taken from bootstrap */
@@ -65,8 +65,8 @@ p {
 }
 
 footer {
-  margin: 0;
-  padding: 0;
+  display: flex;
+  flex: auto;
   min-height: 100vh;
   background: #333;
   display: flex;
@@ -212,22 +212,39 @@ footer .card {
   justify-content: center;
 }
 
-.container1 {
-  width: 800px;
-  margin: auto;
-  display: flex;
-  box-sizing: border-box;
-}
-
-.rows {
-  margin: 10px;
-}
-
-.columns {
-  background-color: transparent;
+section p {
   display: flex;
   flex-wrap: wrap;
-  padding: 10px;
-  text-align: center;
-  vertical-align: middle;
+  justify-content: center;
+  color: white;
+}
+.columnstyle {
+  background-color: teal;
+  align-items: center;
+  padding: 15px;
+  color: white;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+.griditem1 {
+  grid-column: 1 / span 2;
+}
+
+.grid-container div img:hover {
+  width: 30%;
+  cursor: pointer;
+}
+
+@media (min-width: 375px) {
+  .grid-container {
+    grid-template-columns: auto;
+    grid-column: 1 / span 1;
+  }
+
+#g1 div img {
+  justify-content: center;
 }
