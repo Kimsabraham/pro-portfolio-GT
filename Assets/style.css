@@ -31,6 +31,10 @@ nav {
   background-color: dodgerblue;
 }
 
+h2{
+color:white;
+font-weight: bolder;
+}
 /* contact cards taken from freefonted.com credits go to Adam Dipinto */
 .container {
   width: 100%;
@@ -252,4 +256,14 @@ section p {
 
 #g1 div img {
   justify-content: center;
+}
+
+.resume{
+  padding-top: 8px;
+  padding-left: 3px;
+}
+
+.repoLink{
+  background-color: white;
+  color: #00c4e7;
 }
