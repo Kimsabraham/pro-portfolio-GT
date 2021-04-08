@@ -1,16 +1,9 @@
 /* resets all the margins */
-
 * {
-  margin: 0;
+margin: 0;
+padding: 0;
 }
 
-/* this is the background and the general website size */
-body {
-  height: 100px;
-  background-image: url(./themood.jpg);
-  background-size: cover;
-  background-position: inherit;
-}
 
 /* Nav bar css taken from bootstrap */
 nav {
@@ -86,7 +79,6 @@ footer {
   width: 1000px;
   position: relative;
   display: flex;
-  justify-content: space-between;
   background: transparent;
 }
 
