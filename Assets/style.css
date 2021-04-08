@@ -32,8 +32,10 @@ nav {
 }
 
 h2{
+text-align: center;
 color:white;
 font-weight: bolder;
+background-color: #333;
 }
 /* contact cards taken from freefonted.com credits go to Adam Dipinto */
 .container {
@@ -267,3 +269,4 @@ section p {
   background-color: white;
   color: #00c4e7;
 }
+
