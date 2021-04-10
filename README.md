@@ -1,13 +1,12 @@
-
-# HW 02 Professional Portfolio
+# Updated Professional Portfolio
 
 ## Description
+This week we had to show case our new portfolio that included projects and past assignments, it also had to include a resume and links to our github and linkedin. 
 
-For this homework we were tasked to create our professional portfolio, using the html and css knowledge. Their were many challengs to this project but the main one was getting your layout the way you wanted. I soon learned the limitations of flexbox and found myself studing grids as well. This project show cases both styles in my layout.
 
 URL: https://kimsabraham.github.io/pro-portfolio-GT/
-
 Github Repo: https://github.com/Kimsabraham/pro-portfolio-GT
+
 
 ### Output
 
