@@ -11,7 +11,7 @@ Github Repo: https://github.com/Kimsabraham/pro-portfolio-GT
 ### Output
 
 screenshot of final product:
-<img src = Assets\screenshot.png>
+<img src = Assets\UpdatedPort.png>
 
 ## Contributing
 
